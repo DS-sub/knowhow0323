@@ -1,0 +1,69 @@
+body{
+    margin:0px;
+}
+.top-nav{
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    z-index: 2;
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sort{
+    position: relative;
+    width: 200px;
+    margin-bottom: 25px
+}
+.first{
+    top:15px;
+    left:100px;
+}
+.second{
+    top:15px;
+    left:50px;
+
+}
+.thr{
+    top:10px; 
+    left:100px;
+ 
+}
+
+.side-nav{
+    width:250px;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items:center;
+    position:fixed;
+}
+li{
+    list-style-type:none;
+    color: white;
+    font-size: 26px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:cornflowerblue;
+}
+.top{
+    height: 50px;
+}
+.main{
+    height: 1000px;
+    background-image: url(shoes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 250px;
+    background-color: yellow;
+}
