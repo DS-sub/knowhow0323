@@ -1,0 +1,46 @@
+body{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+}
+.wrapper{ 
+    width:450px;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.color{
+    position: relative;
+    width: 200px;
+    margin-bottom: 25px;
+}
+.tomato .bg_color{
+    background-color: tomato;
+}
+.Teal .bg_color{
+    background-color: teal;
+}
+.Burlywood .bg_color{
+    background-color: Burlywood;
+}
+.Thistle .bg_color{
+    background-color: Thistle;
+}
+.bg_color{
+    height: 300px;
+    border: 5px solid white;
+}
+.color_info{
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    top: 20px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+    
+
